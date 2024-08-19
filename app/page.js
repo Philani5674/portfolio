@@ -73,7 +73,7 @@ export default function Home() {
                Philani Ngcamu
               </h1>
               <p>
-                Design and Developer in Australia who creates educational ontent on YouTube to teach others about HTML, CSS and Javascript. <span>I'm interested in AI topics which is why I also add things like ChatGPT into my projects these days.</span>
+                Design and Developer in Johannesburg who creates educational ontent on YouTube to teach others about HTML, CSS and Javascript. <span>I'm interested in AI topics which is why I also add things like ChatGPT into my projects these days.</span>
               </p>
               <div className="call-to-action">
                 <a href="./Sample_Resume_Template.pdf" className="button black">
