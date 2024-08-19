@@ -1,6 +1,9 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
+import { faCoffee, faJar, faServer } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngular, faCss3, faHtml5, faJava, faJs, faNodeJs } from "@fortawesome/free-brands-svg-icons";
+
 
 export default function Home() {
 
@@ -130,12 +133,13 @@ export default function Home() {
             <div className="left-column">
               <h3>Frontend</h3>
               <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Angular</li>
-                <li>Vue</li>
+              <li><FontAwesomeIcon icon={faCss3} size="3x" style={{ color: '#1572B6' }} title="CSS3" /> <span>CSS3</span></li>
+              <li><FontAwesomeIcon icon={faHtml5} size="3x" style={{ color: '#E34F26' }} title="HTML5" /></li>
+              <li><FontAwesomeIcon icon={faJs} size="3x" style={{ color: '#F7DF1E' }} title="JavaScript" /></li>
+              <li><FontAwesomeIcon icon={faJava} size="3x" style={{ color: '#007396' }} title="Java" /></li>
+              <li><FontAwesomeIcon icon={faAngular} size="3x" style={{ color: '#DD0031' }} title="Angular" /></li>
+              <li><FontAwesomeIcon icon={faServer} size="3x" style={{ color: '#444' }} title="Express.js" /></li>
+              <li><FontAwesomeIcon icon={faNodeJs} size="3x" style={{ color: '#68A063' }} title="Node.js" /></li>
               </ul>
               <h3>Backend</h3>
               <ul>
